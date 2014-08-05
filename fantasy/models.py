@@ -45,7 +45,13 @@ MONTURA_TYPE = (
 
 SABERES = (
     ('F', 'Fuego'),
-    ('B', 'Bestias')
+    ('B', 'Bestias'),
+    ('ME', 'Metal'),
+    ('L', 'Luz'),
+    ('V', 'Vida'),
+    ('C', 'Cielos'),
+    ('S', 'Sombras'),
+    ('MU', 'Muerte')
 )
 
 class Equipment(models.Model):
@@ -129,6 +135,42 @@ class ObjetoHechizado(Equipment):
     class Meta:
         verbose_name = 'Objeto Hechizado'
         verbose_name_plural = 'Objetos Hechizados'
+
+
+class Hechizo(models.Model):
+    name = models.CharField('Nombre', max_length=200)
+    description = models.TextField('Descripción', blank=True)
+    dificultad = models.CharField('Dificultad', max_length=200)
+    race = models.CharField('Raza', max_length=3, choices=RACES_LIST)
+    # tipo_saber = models.CharField('Saber', max_length=200, choices=SABERES)
+
+    class Meta:
+        verbose_name = 'Hechizo'
+        verbose_name_plural = 'Hechizos'
+
+    def __unicode__(self):
+       return self.name
+
+class Saber(models.Model):
+    name = models.CharField('Nombre', max_length=2, choices=SABERES)
+    regla_saber = models.TextField('Regla del saber', blank=True)
+    hechizos = models.ManyToManyField(Hechizo, related_name='Hechizos')
+    race = models.CharField('Raza', max_length=3, choices=RACES_LIST)
+
+    class Meta:
+        verbose_name = 'Saber'
+        verbose_name_plural = 'Saberes'
+
+    def get_hechizos(self):
+        return ', '.join([a.name for a in self.hechizos.all()])
+
+    def __unicode__(self):
+        for saber in SABERES:
+            if saber[0] == self.name:
+                return saber[1]
+
+        return self.name
+
 
 '''
 class Tropa(models.Model):

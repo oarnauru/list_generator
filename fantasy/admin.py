@@ -35,6 +35,21 @@ class ObjetoArcanoAdmin(EquiposAdmin):
 class ObjetoHechizadoAdmin(EquiposAdmin):
     pass
 
+
+class HechizosSaberInline(admin.TabularInline):
+    model = Saber.hechizos.through
+
+class HechizoAdmin(admin.ModelAdmin):
+    list_display = ('name', 'race', 'dificultad')
+
+
+class SaberAdmin(admin.ModelAdmin):
+    list_display = ('name', 'race', 'get_hechizos')
+    inlines = [
+        HechizosSaberInline,
+    ]
+    exclude = ('hechizos',)
+
 '''
 class UnidadAdmin(admin.ModelAdmin):
     formfield_overrides = {
@@ -65,11 +80,11 @@ admin.site.register(Talisman, TalismanAdmin)
 admin.site.register(ObjetoArcano, ObjetoArcanoAdmin)
 admin.site.register(ObjetoHechizado, ObjetoHechizadoAdmin)
 admin.site.register(EstandarteMagico, EstandarteMagicoAdmin)
+admin.site.register(Hechizo, HechizoAdmin)
+admin.site.register(Saber, SaberAdmin)
 '''
 admin.site.register(Unidad, UnidadAdmin)
-admin.site.register(Hechizo, HechizoAdmin)
-admin.site.register(Saber, SaberAdm
 admin.site.register(Montura)
 admin.site.register(Tropa)
-admin.site.register(Magia)in)
+admin.site.register(Magia)
 '''
