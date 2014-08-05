@@ -1,0 +1,2180 @@
+[
+    {
+        "pk": 1,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Alabarda",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 2,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Arcabuz",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 3,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Arco",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 4,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Arco corto",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 5,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Arco largo",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 6,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Arma a dos manos",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 7,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Armas arrojadizas",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 8,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Ballesta",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 9,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Dos armas de mano/ Armas de mano adicionales (Solo para miniaturas a pie)",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 10,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Hachas arrojadizas",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 11,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Honda",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 12,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Jabalina",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 13,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Lanza (a pie)",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 14,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Lanza (montado)",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 15,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Lanza de caballeria",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 16,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Mangual",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 17,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Mayal",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 18,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Pistola",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 19,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Ristra de pistolas",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 20,
+        "fields": {
+            "race": "ALL",
+            "puntos": 60,
+            "name": "Espada gigante",
+            "description": "Los ataques en combate cuerpo a cuerpo realizados con este arma se resuelven con +3 a la Fuerza",
+            "short_description": "+3F (Cuerpo a cuerpo)"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 21,
+        "fields": {
+            "race": "ALL",
+            "puntos": 60,
+            "name": "Espada de sangre",
+            "description": "El portador de este arma obtiene +3 ataques",
+            "short_description": "+3A"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 22,
+        "fields": {
+            "race": "ALL",
+            "puntos": 50,
+            "name": "Espada obsidiana",
+            "description": "Las heridas causadas por este arma ignoran las tiradas de salvación por armadura",
+            "short_description": "Heridas causadas ignoran SV"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 23,
+        "fields": {
+            "race": "ALL",
+            "puntos": 40,
+            "name": "Espada ogra",
+            "description": "Los ataques en combate cuerpo a cuerpo realizados con este arma se resuelven con +2 a la Fuerza",
+            "short_description": "+2F (Cuerpo a cuerpo)"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 24,
+        "fields": {
+            "race": "ALL",
+            "puntos": 40,
+            "name": "Espada de conflictos",
+            "description": "El portador de este arma tiene +2 ataques",
+            "short_description": "+2A"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 25,
+        "fields": {
+            "race": "ALL",
+            "puntos": 35,
+            "name": "Espada de esgrima",
+            "description": "Armas emparejadas. El portador de este arma tiene Habilidad de armas 10",
+            "short_description": "HA 10"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 26,
+        "fields": {
+            "race": "ALL",
+            "puntos": 30,
+            "name": "Espada antihéroes",
+            "description": "El portador de este arma obtiene +1 a la fuerza y +1 ataque por cada personaje enemigo que se encuentre en contacto peana con peana con el o su unidad. Estos modificadores se calculan al inicio de cada fase de combate y duran hasta el final de la misma.",
+            "short_description": "+1F y +1A por cada personaje enemigo en contacto con el o su unidad."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 27,
+        "fields": {
+            "race": "ALL",
+            "puntos": 25,
+            "name": "Espada robahechizos",
+            "description": "Un hechicero que sufra heridas no salvadas por este arma perderá uno de sus hechizos (elegidos al azar) por cada una de dichas heridas no salvadas",
+            "short_description": "Hechiceros pierden un hechizo al azar por cada herida no salvada"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 28,
+        "fields": {
+            "race": "ALL",
+            "puntos": 20,
+            "name": "Espada de batalla",
+            "description": "El portador de este arma obtiene +1 ataque",
+            "short_description": "+1A"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 29,
+        "fields": {
+            "race": "ALL",
+            "puntos": 20,
+            "name": "Espada del poder",
+            "description": "Los ataques en combate cuerpo a cuerpo realizados con este arma se resuelven con +1 a la Fuerza",
+            "short_description": "+1F (Cuerpo a cuerpo)"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 30,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "Espada de oro",
+            "description": "Los ataques de este arma se realizan con iniciativa 10",
+            "short_description": "I 10"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 31,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "Espada veloz",
+            "description": "Los ataques realizados con este arma otorgan al portador un +1 a la tirada para impactar",
+            "short_description": "+1 al impactar"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 32,
+        "fields": {
+            "race": "ALL",
+            "puntos": 20,
+            "name": "Espada asesina",
+            "description": "El portador de este arma tiene la regla especial furia asesina, y no perderá la Furia asesina en toda la partida.",
+            "short_description": "Obtiene furia asesina que no se pierde"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 33,
+        "fields": {
+            "race": "ALL",
+            "puntos": 10,
+            "name": "Mordisco de acero",
+            "description": "Los ataques en combate cuerpo a cuerpo realizados con este arma tienen la regla especial de Poder de Penetración",
+            "short_description": "Poder de penetración"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 34,
+        "fields": {
+            "race": "ALL",
+            "puntos": 10,
+            "name": "Espada reliquia",
+            "description": "Los ataques realizados con este arma siempre hieren con 5+, a menos que necesiten un resultado inferior.",
+            "short_description": "Hiere con 5+, a no ser que necesite menos."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 35,
+        "fields": {
+            "race": "ALL",
+            "puntos": 10,
+            "name": "Espada aullante",
+            "description": "El portador de este arma causa Miedo",
+            "short_description": "Miedo"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 36,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Espada del tormento",
+            "description": "Un monstruo o personaje que sufra una herida sin salvar de la espada del tormento tendrá la regla especial Estupidez durante el resto de partida",
+            "short_description": "Monstruo o personaje sufre herida sin salvar gana estupidez para toda la partida"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 37,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Azote del guerrero",
+            "description": "Un monstruo o personaje que sufra heridas no salvadas por este arma perderá permanentemente un Ataque por cada una de las heridas no salvadas ( hasta un mínimo de 1)",
+            "short_description": "Monstruo o personaje, -1A por herida no salvada (hasta mínimo de 1)"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 38,
+        "fields": {
+            "race": "ALL",
+            "puntos": 50,
+            "name": "Armadura del destino",
+            "description": "Armadura pesada. Otorga al portador una tirada de salvación especial de 4+",
+            "short_description": "Armadura pesada. SVE 4+."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 39,
+        "fields": {
+            "race": "ALL",
+            "puntos": 50,
+            "name": "Yelmo del engaño",
+            "description": "El portador mejora su tirada de salvación por armadura en un punto. Cualquier tirada para herir que tenga éxito contra el portador del Yelmo del engaño deberá repetirse.",
+            "short_description": "+1 SV. Repite tiradas para herir exitosas recibidas."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 40,
+        "fields": {
+            "race": "ALL",
+            "puntos": 45,
+            "name": "Armadura de plata",
+            "description": "Otorga al portador una tirada de salvación por armadura de 2+, que no puede mejorarse de ningún modo.",
+            "short_description": "SV 2+. No mejorable."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 41,
+        "fields": {
+            "race": "ALL",
+            "puntos": 35,
+            "name": "Armadura de la fortuna",
+            "description": "Armadura pesada. Otorga al portador una tirada de salvación especial de 5+.",
+            "short_description": "Armadura pesada. SVE 5+."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 42,
+        "fields": {
+            "race": "ALL",
+            "puntos": 30,
+            "name": "Yelmo de la discordia",
+            "description": "El portador mejora su tirada de salvación por armadura en un punto. Además, al inicio de cada fase de combate cuerpo a cuerpo, elige a un personaje enemigo que esté en contacto peana con peana con el portador o con su unidad. Dicho personaje deberá realizar inmediatamente un chequeo de Liderazgo. Si no lo supera, sucumbirá a los susurros malignos que salen del yelmo; en esa fase de combate no podrá realizar ataques y resultará impactado automáticamente.",
+            "short_description": "+1 SV. En cada fase de combate, elige un personaje enemigo en contacto con portador o unidad, este chequea Liderazgo. Si falla, este personaje no puede realizar ataques, y es impactado directamente esta fase."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 43,
+        "fields": {
+            "race": "ALL",
+            "puntos": 25,
+            "name": "Escamas brillantes",
+            "description": "Armadura ligera. Los enemigos sufren un penalizador de -1 en sus tiradas para impactar en cuerpo a cuerpo cuando intenten atacar al portador. ",
+            "short_description": "Armadura ligera. Enemigos -1 en tiradas para impactar."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 44,
+        "fields": {
+            "race": "ALL",
+            "puntos": 25,
+            "name": "Escudo de ptolos",
+            "description": "Escudo. El portador obtiene una tirada de salvación por armadura de 1+ contra los ataques de proyectiles.",
+            "short_description": "Escudo. SV 1+ contra proyectiles."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 45,
+        "fields": {
+            "race": "ALL",
+            "puntos": 20,
+            "name": "Escudo antihechizos",
+            "description": "Escudo. El portador obtiene Resistencia a la magia (1).",
+            "short_description": "Escudo. Resistencia a la magia (1)"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 46,
+        "fields": {
+            "race": "ALL",
+            "puntos": 20,
+            "name": "Armadura del jugador",
+            "description": "Armadura pesada. Otorga al portador una tirada de salvación especial de 6+.",
+            "short_description": "Armadura pesada. SVE 6+."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 47,
+        "fields": {
+            "race": "ALL",
+            "puntos": 10,
+            "name": "Yelmo del dragón",
+            "description": "El portador mejora su tirada de salvación por armadura en un punto. Además, el portador obtiene una tirada de salvación especial de 2+ contra Ataques flamígeros.",
+            "short_description": "+1 SV. SVE 2+ contra Ataques flamígeros."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 48,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Escudo hechizado",
+            "description": "Escudo. El portador mejora su tirada de salvación por armadura en dos puntos, en lugar del único punto que le otorgaría un escudo normal.",
+            "short_description": "Escudo. +2 SV."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 49,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Escudo encantado",
+            "description": "Escudo. Un solo uso. El primer impacto sufrido por el portador se ignora con un resultado de 2+ en 1D6.",
+            "short_description": "Escudo. Un solo uso. El primer impacto se ignora con 2+ en 1D6."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 50,
+        "fields": {
+            "race": "ALL",
+            "puntos": 45,
+            "name": "Talismán de salvación",
+            "description": "Este talismán otorga al portador una tirada de salvación especial de 4+.",
+            "short_description": "SVE 4+."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 51,
+        "fields": {
+            "race": "ALL",
+            "puntos": 45,
+            "name": "Piedra de obsidiana",
+            "description": "Este talismán otorga al portador la regla especial Resistencia a la magia (3)",
+            "short_description": "Resistencia a la magia (3)"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 52,
+        "fields": {
+            "race": "ALL",
+            "puntos": 30,
+            "name": "Talismán de resistencia",
+            "description": "Este talismán otorga al portador una tirada de salvación especial de 5+.",
+            "short_description": "SVE 5+"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 53,
+        "fields": {
+            "race": "ALL",
+            "puntos": 30,
+            "name": "Amuleto de obsidiana",
+            "description": "Este talismán otorga al portador Resistencia a la magia (2)",
+            "short_description": "Resistencia a la magia (2)"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 54,
+        "fields": {
+            "race": "ALL",
+            "puntos": 25,
+            "name": "Piedra del amanecer",
+            "description": "El portador repite sus tiradas de salvación por armadura fallidas.",
+            "short_description": "Repite SV fallidas"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 55,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "Amuleto de ópalo",
+            "description": "Un solo uso. Este talismán otorga al portador una tirada de salvación especial de 4+ contra la primera herida que sufra. Tras esto, el poder del amuleto de ópalo se debilita y no puede volver a utilizarse en toda la partida.",
+            "short_description": "Un solo uso. Este talismán otorga al portador una tirada de salvación especial de 4+ contra la primera herida que sufra."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 56,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "Baratija de obsidiana",
+            "description": "Este talismán otorga al portador Resistencia a la magia (1)",
+            "short_description": "Resistencia a la magia (1)"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 57,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "Talismán de protección",
+            "description": "Este talismán otorga al portador una tirada de salvación especial de 6+.",
+            "short_description": "SVE 6+."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 58,
+        "fields": {
+            "race": "ALL",
+            "puntos": 10,
+            "name": "Semilla del renacimiento",
+            "description": "Este talismán otorga al portador la regla especial Regeneración (6+)",
+            "short_description": "Regeneración (6+)"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 59,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Gema matadragones",
+            "description": "Este talismán otorga al portador una tirada de salvación especial de 2+ contra ataques flamígeros.",
+            "short_description": "SVE 2+ contra ataques flamígeros."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 60,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Collar desplumapalomas",
+            "description": "Este talismán otorga al portador una tirada de salvación especial de 5+ contra las heridas causadas en combate cuerpo a cuerpo por miniaturas que tengan la regla especial Volar.",
+            "short_description": "SVE 5+ cuerpo a cuerpo contra voladoras"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 61,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Amuleto de la suerte",
+            "description": "Un solo uso. Permite al portador repetir una única tirada de salvación por armadura fallida.",
+            "short_description": "Un solo uso. Repetir una única SV fallida."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 62,
+        "fields": {
+            "race": "ALL",
+            "puntos": 55,
+            "name": "Estandarte furioso",
+            "description": "Una unidad con este estandarte mágico podrá repetir sus tiradas para determinar la distancia de carga.",
+            "short_description": "Repite tiradas para determinar distancia de carga."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 63,
+        "fields": {
+            "race": "ALL",
+            "puntos": 50,
+            "name": "Estandarte aullador",
+            "description": "Una unidad con este estandarte mágico causará Terror a sus enemigos",
+            "short_description": "Causa Terror"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 64,
+        "fields": {
+            "race": "ALL",
+            "puntos": 50,
+            "name": "Estandarte del explorador",
+            "description": "Una unidad con este estandarte mágico obtendrá la regla especial de Cruzar.",
+            "short_description": "Cruzar"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 65,
+        "fields": {
+            "race": "ALL",
+            "puntos": 45,
+            "name": "Estandarte destructor",
+            "description": "Las miniaturas de una unidad con este estandarte mágico obtendrán la regla especial Poder de penetración.",
+            "short_description": "Poder de penetración."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 66,
+        "fields": {
+            "race": "ALL",
+            "puntos": 35,
+            "name": "Estandarte de guerra",
+            "description": "Una unidad con este estandarte mágico añadirá +1 a la resolución del combate.",
+            "short_description": "+1 en resolución del combate."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 67,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "Estandarte de la rapidez",
+            "description": "Las miniaturas de una unidad con este estandarte mágico obtendrán +1 a su atributo de movimiento.",
+            "short_description": "+1 M"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 68,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "Pendón de hueso",
+            "description": "Las miniaturas de una unidad con este estandarte mágico obtendrán Resistencia a la magia (1)",
+            "short_description": "Resistencia a la magia (1)"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 69,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "Estandarte de la disciplina",
+            "description": "Las miniaturas de una unidad con este estandarte mágico sumarán +1 a su atributo de Liderazgo, pero no podrán utilizar la Presencia inspiradora de su general.",
+            "short_description": "+1 L. No pueden usar Presencia inspiradora del general."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 70,
+        "fields": {
+            "race": "ALL",
+            "puntos": 10,
+            "name": "Estandarte de la llama perpetua",
+            "description": "Las miniaturas de una unidad con este estandarte mágico tendrán Ataques flamígeros.",
+            "short_description": "Ataques flamígeros."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 71,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Pendón reluciente",
+            "description": "Un solo uso. Una unidad con este estandarte mágico podrá repetir su primer chequeo de Liderazgo fallido.",
+            "short_description": "Un solo uso. Repite primer chequeo Liderazgo fallido."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 72,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Estandarte del espantapajaros",
+            "description": "Una unidad con este estandarte mágico causará Miedo a todas las criaturas que tengan la regla especial Volar",
+            "short_description": "Miedo a voladoras"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 73,
+        "fields": {
+            "race": "ALL",
+            "puntos": 70,
+            "name": "Libro de Ashur",
+            "description": "El portador obtiene un modificador de +1 para intentar lanzar o dispersar hechizos.",
+            "short_description": "+1 lanzar o dispersar hechizos"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 74,
+        "fields": {
+            "race": "ALL",
+            "puntos": 50,
+            "name": "Pergamino de reacción",
+            "description": "Un solo uso. Cuando se lance un hechizo enemigo, un hechicero que tenga este pergamino podrá leerlo en vez de dispersar el hechizo. El hechizo se lanzara de manera normal, pero tras resolverse tira 1D6 por cada dado de energía usado en el lanzamiento. El hechicero que lanzó el hechizo recibirá una herida por cada resultado de 5+ que obtenga, sin posibilidad de salvación por armadura.",
+            "short_description": "Un solo uso. En lanzamiento hechizo enemigo, en lugar de dispersar, 1D6 por cada dado de energía tras resolverse. Por cada 5+, herida sin posibilidad SV."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 75,
+        "fields": {
+            "race": "ALL",
+            "puntos": 50,
+            "name": "Pergamino de sanguijuela",
+            "description": "Un solo uso. Cuando se lance un hechizo enemigo, un hechicero que tenga este pergamino podrá leerlo en vez de dispersar el hechizo. El hechizo se lanzara de manera normal, pero tras resolverse, el portador del pergamino añadirá a su reserva de dispersión un número de dados igual a los dados utilizados para lanzar el hechizo (recuerda que tu reserva de dispersión no puede ser mayor de 12 dados). ",
+            "short_description": "Un solo uso. En lanzamiento hechizo enemigo, en lugar de dispersar, portador añade un dado a la reserva por cada dado utilizado en lanzamiento (max en reserva 12)."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 76,
+        "fields": {
+            "race": "ALL",
+            "puntos": 50,
+            "name": "Pergamino de maldición de sivejir",
+            "description": "Un solo uso. Cuando se lance un hechizo enemigo, un hechicero que tenga este pergamino podrá leerlo en vez de dispersar el hechizo. El hechizo se lanzara de manera normal, pero parte de la energía se transformará y se redirigirá hacia el hechicero que lo lanzó, !quien puede verse convertido en un pequeño sapo! El hechicero enemigo puede intentar resistir los efectos de la  maldición si obtiene un resultado igual o inferior a su nivel de hechicería en 1D6. En caso contrario, la transformación lo convertirá en sapo. Mientras se encuentre en ese estado, el hechicero no podrá canalizar o dispersar hechizos, todos sus equipos mágicos y equipo mundano (armadura, armas, etc ) dejarán de funcionar temporalmente, y todos sus atributos se reducirán a 1 (excepto las Heridas, q no se verá afectado). El jugador que controla el hechicero víctima de la maldición podrá tirar 1D6 al inicio de cada una de sus siguientes fases de Magia. Cuando saque un 4+, la maldición desaparecerá, y el hechicero volverá a su forma normal (aunque aún se pasará varios días intentando comer moscas...!).",
+            "short_description": "Un solo uso. Cuando enemigo lanza hechizo, en lugar de dispersar, enemigo tira 1D6. Si resultado mayor que nivel de hechicería, se convierte en sapo. Todos atributos a 1 menos heridas. Sus equipos no funcionan. No puede canalizar ni dispersar. En siguientes fases de magia, si 4+ en 1D6, vuelve a estado normal, con sus atributos y equipos."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 77,
+        "fields": {
+            "race": "ALL",
+            "puntos": 35,
+            "name": "Pergamino de energia",
+            "description": "Un solo uso. Este pergamino puede utilizarse cuando el hechicero enemigo intente lanzar un hechizo. Durante dicho intento, cualquier tirada de lanzamiento que saque un doble causará una Fuerza irresistible (y una disfunción mágica).",
+            "short_description": "Un solo uso. Si enemigo intenta lanzar hechizo, cualquier doble causa Fuerza irresistible (y una disfunción mágica)."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 78,
+        "fields": {
+            "race": "ALL",
+            "puntos": 35,
+            "name": "Varita de azabache",
+            "description": "Un solo uso. El portador puede aumentar el resultado de lanzamiento de uno de sus hechizos tirando 1D6 adicional tras haber hecho su tirada de lanzamiento normal. Este dado de energía adicional puede contribuir a que un hechizo se lance con Fuerza irresistible (con disfunción mágica).",
+            "short_description": "Un solo uso.  Después de lanzar hechizo, 1D6 para mejorar tirada. Puede causar Fuerza irresistible (con disfunción mágica)."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 79,
+        "fields": {
+            "race": "ALL",
+            "puntos": 35,
+            "name": "Vara prohibida",
+            "description": "Un solo uso. La Vara prohibida añade 1D6 a la reserva de energía del hechicero al inicio de su fase de Magia, pero  también inflige 1D3 heridas a su portador (sin posibilidad de tiradas de salvación por armadura) ",
+            "short_description": "Un solo uso. Añade 1D6 a reserva en inicio Fase de Magia. Causa 1D3 heridas al portador, sin SV."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 80,
+        "fields": {
+            "race": "ALL",
+            "puntos": 25,
+            "name": "Fragmento de piedra del engaño",
+            "description": "Un solo uso. Debes declarar el uso de este objeto al inicio de una de tus fases de magia. Durante el resto de esa fase, cuando uno de los hechizos del portador sea dispersado por un hechicero enemigo, tira 1D6. Con un 5+, dicho hechicero enemigo sufrirá una herida sin posibilidad de salvación por armadura.",
+            "short_description": "Un solo uso. Declarar uso al inicio fase Magia. Por cada hechizo dispersado, enemigo tira 1D6. Con 5+, hechicero enemigo sufre 1 herida sin SV."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 81,
+        "fields": {
+            "race": "ALL",
+            "puntos": 25,
+            "name": "Vara terrenal",
+            "description": "Un solo uso. Cuando el hechicero deba tirar en la Tabla de Disfunción Mágica, podrá repetir la tirada.",
+            "short_description": "Un solo uso.  Repite tirada en Tabla de Disfunción Mágica."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 82,
+        "fields": {
+            "race": "ALL",
+            "puntos": 25,
+            "name": "Pergamino de dispersión",
+            "description": "Un solo uso. Cuando se lance un hechizo enemigo, un hechicero que tenga este pergamino podrá leerlo en vez de dispersar el hechizo mediante dados de dispersión. Este hechizo se dispersará automáticamente, sin necesidad de tirar los dados. Obviamente, un pergamino de dispersión no servirá de nada si el hechizo se ha lanzado con fuerza irresistible. Nótese así mismo, que un pergamino de dispersión solo podrá dispersar los hechizos de tipo \"Permanece en juego\" en el momento que sean lanzados.",
+            "short_description": "Un solo uso. Dispersión automática, si no fuerza irresistible, en momento que son lanzados con éxito."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 83,
+        "fields": {
+            "race": "ALL",
+            "puntos": 20,
+            "name": "Piedra de energia",
+            "description": "Un solo uso. El hechicero puede declarar el uso de la Piedra de energía justo antes de lanzar un hechizo. En ese caso, añadirá dos dados adicionales a los dados de energía que vaya a tirar (aún así, en la tirada se deberá utilizar al menos un dado de la reserva de energía)",
+            "short_description": "Un solo uso. 2D6 adicionales al lanzar hechizo.  Mínimo 1D6 de la reserva."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 84,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "Cetro de estabilidad",
+            "description": "Un solo uso. El portador puede aumentar el resultado de una de sus tiradas de dispersión en 1D6 adicional, tras haber lanzados sus otros dados de dispersión. Este dado de dispersión adicional puede colaborar a que el hechizo se disperse con Fuerza irresistible.",
+            "short_description": "Un solo uso. 1D6 adicional para dispersa hechizo. Puede dispersar con Fuerza irresistible."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 85,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "Báculo canalizador",
+            "description": "El hechicero añade +1 a todos sus intentos de canalizar dados de energía o de dispersión.",
+            "short_description": "+1 a canalizar y dispersar."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 86,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "Pergamino de protección",
+            "description": "Un solo uso. Cuando un enemigo lanza un hechizo, un hechicero con este pergamino podrá leerlo en vez de intentar dispersar el hechizo. El hechizo se lanzará con de manera normal, pero su objetivo tendrá una tirada de salvación especial de 4+ contra cualquier herida causada por el hechizo.",
+            "short_description": "Un solo uso. En lugar de dispersar, SVE 4+ contra ese hechizo."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 88,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Armadura ligera",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 89,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Armadura pesada",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 90,
+        "fields": {
+            "race": "ALL",
+            "puntos": 0,
+            "name": "Escudo",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 91,
+        "fields": {
+            "race": "ALL",
+            "puntos": 100,
+            "name": "Sombrero brujo",
+            "description": "El portador se considera un hechicero de nivel 2 que puede utilizar hechizos de un Saber de la Magia elegido al azar. No obstante, también tiene la regla especial Estupidez.",
+            "short_description": "Portador hechicero nv2. Saber elegido al azar. Tiene Estupidez."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 92,
+        "fields": {
+            "race": "ALL",
+            "puntos": 100,
+            "name": "Fortaleza de Fozzrik",
+            "description": "Tras determinar las zonas de despliegue, pero antes de desplegar los ejércitos, representa la fortaleza de Fozzrik colocando en tu zona de despliegue una Atalaya ( o alguna estructura improvisada que sea de un tamaño similar). \r\nLa Fortaleza de Fozzrik se considera un edifico estándar (Consulta la página 126 para más detalles). Si no dispones de un edificio adecuado para representar la Fortaleza de Fozzrik no podrás utilizarla.",
+            "short_description": "Coloca antes de desplegar una atalaya en tu zona de despliegue."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 93,
+        "fields": {
+            "race": "ALL",
+            "puntos": 50,
+            "name": "Alfombra arabe",
+            "description": "Solo infantería e infantería monstruosa. El propietario de esta alfombra mágica tiene la regla especial Volar. Sin embargo, no puede unirse a ninguna unidad.",
+            "short_description": "Solo infantería e infantería monstruosa. Volar. No puede unirse a unidades."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 94,
+        "fields": {
+            "race": "ALL",
+            "puntos": 35,
+            "name": "Corona de mando",
+            "description": "El portador de la Corona de mando tiene la regla especial Tozudez.",
+            "short_description": "Tozudez."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 95,
+        "fields": {
+            "race": "ALL",
+            "puntos": 35,
+            "name": "Poción curativa",
+            "description": "Un solo uso. La poción curativa puede beberse al inicio del turno del jugador que controla la miniatura. El bebedor de la poción recupera de inmediato 1D6 heridas.",
+            "short_description": "Un solo uso. Se bebe al inicio del turno. Una miniatura propia recupera 1D6 heridas."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 96,
+        "fields": {
+            "race": "ALL",
+            "puntos": 25,
+            "name": "Rubí de destrucción",
+            "description": "Hechizo vinculado (nivel de energía 3). El Rubí de destrucción contiene el hechizo Bola de Fuego (Consulta el saber del fuego)",
+            "short_description": "Hechizo vinculado (nv3). Bola de fuego, saber del fuego"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 97,
+        "fields": {
+            "race": "ALL",
+            "puntos": 25,
+            "name": "Terrible mascara de !EEE!",
+            "description": "Su portador causa Terror. Sin embargo, las demás miniaturas no podrán utilizar su atributo de Liderazgo.",
+            "short_description": "Terror. No se puede usar su Liderazgo."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 98,
+        "fields": {
+            "race": "ALL",
+            "puntos": 35,
+            "name": "Antorcha contra voladores",
+            "description": "Las criaturas voladoras (y sus jinetes) deben repetir las tiradas para impactar en combate cuerpo a cuerpo que tengan éxito contra el portador de la antorcha ( y contra la unidad en la que se encuentre).",
+            "short_description": "Voladoras y jinetes repiten tiradas para herir contra portador y unidad"
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 99,
+        "fields": {
+            "race": "ALL",
+            "puntos": 20,
+            "name": "Poción de fuerza",
+            "description": "Un solo uso. La poción de fuerza puede beberse al inicio de cualquier turno del jugador. El bebedor obtiene +3 a la Fuerza hasta el final del turno.",
+            "short_description": "Un solo uso. Al inicio de cualquier turno del jugador. +3F hasta el final del turno."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 100,
+        "fields": {
+            "race": "ALL",
+            "puntos": 20,
+            "name": "Poción de resistencia",
+            "description": "Un solo uso. La poción de fuerza puede beberse al inicio de cualquier turno del jugador. El bebedor obtiene +3 a la Resistencia hasta el final del turno.",
+            "short_description": "Un solo uso. Al inicio de cualquier turno del jugador. +3R hasta el final del turno."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 101,
+        "fields": {
+            "race": "ALL",
+            "puntos": 15,
+            "name": "El otro fragmento de piedra de engaño",
+            "description": "Las miniaturas que estén en contacto peana con peana con el portador (tanto amigos como enemigos) deberán repetir las tiradas de salvación especial que superen.",
+            "short_description": "Amigos o enemigos peana con peana, repiten SVE exitosas."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 102,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Icono de acero maldito",
+            "description": "Tanto el personaje como la unidad en la que se encuentre obtienen una tirada de salvación especial de 6+ contra las maquinas de guerra.",
+            "short_description": "Personaje y unidad SVE 6+ contra maquinas de guerra."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 103,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Poción de temeridad",
+            "description": "Un solo uso. La poción de temeridad puede beberse al inicio de cualquier turno del jugador. El bebedor obtiene las reglas especiales de Inmune a psicología y Carga devastadora hasta el final del turno del jugador en curso",
+            "short_description": "Un solo uso. Se bebe al inicio del turno. Inmune a psicología y Carga devastadora hasta final del turno."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 104,
+        "fields": {
+            "race": "ALL",
+            "puntos": 5,
+            "name": "Poción de velocidad",
+            "description": "Un solo uso. La poción de velocidad puede beberse al inicio de cualquier turno del jugador. El bebedor obtiene +3 a la Iniciativa hasta el final del turno.",
+            "short_description": "Un solo uso. Se bebe al inicio del turno. +3 Iniciativa hasta final del turno."
+        },
+        "model": "fantasy.equipment"
+    },
+    {
+        "pk": 1,
+        "fields": {
+            "race": "ALL",
+            "name": "Arma de aliento",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 2,
+        "fields": {
+            "race": "ALL",
+            "name": "Ataque adicional",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 3,
+        "fields": {
+            "race": "ALL",
+            "name": "Ataques aleatorios",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 4,
+        "fields": {
+            "race": "ALL",
+            "name": "Ataques envenenados",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 5,
+        "fields": {
+            "race": "ALL",
+            "name": "Ataques flamígeros",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 6,
+        "fields": {
+            "race": "ALL",
+            "name": "Carga devastadora",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 7,
+        "fields": {
+            "race": "ALL",
+            "name": "Criatura marina",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 8,
+        "fields": {
+            "race": "ALL",
+            "name": "Caballeria rápida",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 9,
+        "fields": {
+            "race": "ALL",
+            "name": "Cruzar",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 10,
+        "fields": {
+            "race": "ALL",
+            "name": "Disparo lento",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 11,
+        "fields": {
+            "race": "ALL",
+            "name": "Disparo Rápido",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 12,
+        "fields": {
+            "race": "ALL",
+            "name": "Disparos Múltiples",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 13,
+        "fields": {
+            "race": "ALL",
+            "name": "Estupidez",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 14,
+        "fields": {
+            "race": "ALL",
+            "name": "Étereo",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 15,
+        "fields": {
+            "race": "ALL",
+            "name": "Flotar",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 16,
+        "fields": {
+            "race": "ALL",
+            "name": "Francotirador",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 17,
+        "fields": {
+            "race": "ALL",
+            "name": "Furia asesina",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 18,
+        "fields": {
+            "race": "ALL",
+            "name": "Golpe Letal",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 19,
+        "fields": {
+            "race": "ALL",
+            "name": "Golpetazo",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 20,
+        "fields": {
+            "race": "ALL",
+            "name": "Heridas Multiples",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 21,
+        "fields": {
+            "race": "ALL",
+            "name": "Hostigadores",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 22,
+        "fields": {
+            "race": "ALL",
+            "name": "Ignora Cobertura",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 23,
+        "fields": {
+            "race": "ALL",
+            "name": "Impactos por Carga",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 24,
+        "fields": {
+            "race": "ALL",
+            "name": "Indesmoralizable",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 25,
+        "fields": {
+            "race": "ALL",
+            "name": "Inestable",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 26,
+        "fields": {
+            "race": "ALL",
+            "name": "Inflamable",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 27,
+        "fields": {
+            "race": "ALL",
+            "name": "Inmune a psicologia",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 28,
+        "fields": {
+            "race": "ALL",
+            "name": "Luchar con filas adicionales",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 29,
+        "fields": {
+            "race": "ALL",
+            "name": "Lluvia de disparos",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 30,
+        "fields": {
+            "race": "ALL",
+            "name": "Miedo",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 31,
+        "fields": {
+            "race": "ALL",
+            "name": "Monstruos y cuidadores",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 32,
+        "fields": {
+            "race": "ALL",
+            "name": "Mover o disparar",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 33,
+        "fields": {
+            "race": "ALL",
+            "name": "Movimiento Aleatorio",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 34,
+        "fields": {
+            "race": "ALL",
+            "name": "Objetivo grande",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 35,
+        "fields": {
+            "race": "ALL",
+            "name": "Odio",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 36,
+        "fields": {
+            "race": "ALL",
+            "name": "Piel Escamosa",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 37,
+        "fields": {
+            "race": "ALL",
+            "name": "Poder de penetración",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 38,
+        "fields": {
+            "race": "ALL",
+            "name": "Regeneración",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 39,
+        "fields": {
+            "race": "ALL",
+            "name": "Requiere ambas manos",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 40,
+        "fields": {
+            "race": "ALL",
+            "name": "Resistencia a la magia (1)",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 41,
+        "fields": {
+            "race": "ALL",
+            "name": "Resistencia a la magia (2)",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 42,
+        "fields": {
+            "race": "ALL",
+            "name": "Resistencia a la magia (3)",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 43,
+        "fields": {
+            "race": "ALL",
+            "name": "Señor del conocimiento",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 44,
+        "fields": {
+            "race": "ALL",
+            "name": "Siempre ataca primero",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 45,
+        "fields": {
+            "race": "ALL",
+            "name": "Siempre ataca último",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 46,
+        "fields": {
+            "race": "ALL",
+            "name": "Terror",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 47,
+        "fields": {
+            "race": "ALL",
+            "name": "Vuelo",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 48,
+        "fields": {
+            "race": "ALL",
+            "name": "Tozudez",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 49,
+        "fields": {
+            "race": "ALL",
+            "name": "Zancada Veloz",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 50,
+        "fields": {
+            "race": "ALL",
+            "name": "Acechantes",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 51,
+        "fields": {
+            "race": "ALL",
+            "name": "Exploradores",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 52,
+        "fields": {
+            "race": "ALL",
+            "name": "Vanguardia",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 53,
+        "fields": {
+            "race": "ALL",
+            "name": "Disparos Múltiples (2)",
+            "description": "",
+            "short_description": ""
+        },
+        "model": "fantasy.regla"
+    },
+    {
+        "pk": 1,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 2,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 3,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 4,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 5,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 6,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 7,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 8,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 9,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 10,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 11,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 12,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 13,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 14,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 15,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 16,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 17,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 18,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 19,
+        "fields": {},
+        "model": "fantasy.arma"
+    },
+    {
+        "pk": 20,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 21,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 22,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 23,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 24,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 25,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 26,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 27,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 28,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 29,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 30,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 31,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 32,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 33,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 34,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 35,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 36,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 37,
+        "fields": {},
+        "model": "fantasy.armamagica"
+    },
+    {
+        "pk": 88,
+        "fields": {},
+        "model": "fantasy.armadura"
+    },
+    {
+        "pk": 89,
+        "fields": {},
+        "model": "fantasy.armadura"
+    },
+    {
+        "pk": 90,
+        "fields": {},
+        "model": "fantasy.armadura"
+    },
+    {
+        "pk": 38,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 39,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 40,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 41,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 42,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 43,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 44,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 45,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 46,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 47,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 48,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 49,
+        "fields": {},
+        "model": "fantasy.armaduramagicas"
+    },
+    {
+        "pk": 50,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 51,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 52,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 53,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 54,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 55,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 56,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 57,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 58,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 59,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 60,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 61,
+        "fields": {},
+        "model": "fantasy.talisman"
+    },
+    {
+        "pk": 62,
+        "fields": {},
+        "model": "fantasy.estandartemagico"
+    },
+    {
+        "pk": 63,
+        "fields": {},
+        "model": "fantasy.estandartemagico"
+    },
+    {
+        "pk": 64,
+        "fields": {},
+        "model": "fantasy.estandartemagico"
+    },
+    {
+        "pk": 65,
+        "fields": {},
+        "model": "fantasy.estandartemagico"
+    },
+    {
+        "pk": 66,
+        "fields": {},
+        "model": "fantasy.estandartemagico"
+    },
+    {
+        "pk": 67,
+        "fields": {},
+        "model": "fantasy.estandartemagico"
+    },
+    {
+        "pk": 68,
+        "fields": {},
+        "model": "fantasy.estandartemagico"
+    },
+    {
+        "pk": 69,
+        "fields": {},
+        "model": "fantasy.estandartemagico"
+    },
+    {
+        "pk": 70,
+        "fields": {},
+        "model": "fantasy.estandartemagico"
+    },
+    {
+        "pk": 71,
+        "fields": {},
+        "model": "fantasy.estandartemagico"
+    },
+    {
+        "pk": 72,
+        "fields": {},
+        "model": "fantasy.estandartemagico"
+    },
+    {
+        "pk": 73,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 74,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 75,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 76,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 77,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 78,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 79,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 80,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 81,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 82,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 83,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 84,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 85,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 86,
+        "fields": {},
+        "model": "fantasy.objetoarcano"
+    },
+    {
+        "pk": 91,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 92,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 93,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 94,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 95,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 96,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 97,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 98,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 99,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 100,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 101,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 102,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 103,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    },
+    {
+        "pk": 104,
+        "fields": {},
+        "model": "fantasy.objetohechizado"
+    }
+]

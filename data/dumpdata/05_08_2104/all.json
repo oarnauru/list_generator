@@ -1,0 +1,4937 @@
+[
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "logentry",
+            "app_label": "admin",
+            "name": "log entry"
+        },
+        "pk": 1
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "permission",
+            "app_label": "auth",
+            "name": "permission"
+        },
+        "pk": 2
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "group",
+            "app_label": "auth",
+            "name": "group"
+        },
+        "pk": 3
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "user",
+            "app_label": "auth",
+            "name": "user"
+        },
+        "pk": 4
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "contenttype",
+            "app_label": "contenttypes",
+            "name": "content type"
+        },
+        "pk": 5
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "session",
+            "app_label": "sessions",
+            "name": "session"
+        },
+        "pk": 6
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "equipment",
+            "app_label": "fantasy",
+            "name": "Equipo"
+        },
+        "pk": 7
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "regla",
+            "app_label": "fantasy",
+            "name": "Regla"
+        },
+        "pk": 8
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "arma",
+            "app_label": "fantasy",
+            "name": "Arma"
+        },
+        "pk": 9
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "armamagica",
+            "app_label": "fantasy",
+            "name": "arma magica"
+        },
+        "pk": 10
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "armadura",
+            "app_label": "fantasy",
+            "name": "armadura"
+        },
+        "pk": 11
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "armaduramagicas",
+            "app_label": "fantasy",
+            "name": "armadura magicas"
+        },
+        "pk": 12
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "talisman",
+            "app_label": "fantasy",
+            "name": "talisman"
+        },
+        "pk": 13
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "estandartemagico",
+            "app_label": "fantasy",
+            "name": "estandarte magico"
+        },
+        "pk": 14
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "objetoarcano",
+            "app_label": "fantasy",
+            "name": "objeto arcano"
+        },
+        "pk": 15
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "objetohechizado",
+            "app_label": "fantasy",
+            "name": "objeto hechizado"
+        },
+        "pk": 16
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "fields": {
+            "model": "migrationhistory",
+            "app_label": "south",
+            "name": "migration history"
+        },
+        "pk": 17
+    },
+    {
+        "model": "sessions.session",
+        "fields": {
+            "expire_date": "2014-08-06T10:12:17Z",
+            "session_data": "YWVhOTE0ZmI4NmUxOTc3ZDNmNzQzNTM4ZDM2MTc0ZWYwYjY2ZjYyNDp7Il9hdXRoX3VzZXJfaWQiOjEsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0="
+        },
+        "pk": "1rc4xsrodbaavqvv3ieoksoctxbawhop"
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Alabarda"
+        },
+        "pk": 1
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Arcabuz"
+        },
+        "pk": 2
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Arco"
+        },
+        "pk": 3
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Arco corto"
+        },
+        "pk": 4
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Arco largo"
+        },
+        "pk": 5
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Arma a dos manos"
+        },
+        "pk": 6
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Armas arrojadizas"
+        },
+        "pk": 7
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Ballesta"
+        },
+        "pk": 8
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Dos armas de mano/ Armas de mano adicionales (Solo para miniaturas a pie)"
+        },
+        "pk": 9
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Hachas arrojadizas"
+        },
+        "pk": 10
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Honda"
+        },
+        "pk": 11
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Jabalina"
+        },
+        "pk": 12
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Lanza (a pie)"
+        },
+        "pk": 13
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Lanza (montado)"
+        },
+        "pk": 14
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Lanza de caballeria"
+        },
+        "pk": 15
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Mangual"
+        },
+        "pk": 16
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Mayal"
+        },
+        "pk": 17
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Pistola"
+        },
+        "pk": 18
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Ristra de pistolas"
+        },
+        "pk": 19
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+3F (Cuerpo a cuerpo)",
+            "description": "Los ataques en combate cuerpo a cuerpo realizados con este arma se resuelven con +3 a la Fuerza",
+            "puntos": 60,
+            "race": "ALL",
+            "name": "Espada gigante"
+        },
+        "pk": 20
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+3A",
+            "description": "El portador de este arma obtiene +3 ataques",
+            "puntos": 60,
+            "race": "ALL",
+            "name": "Espada de sangre"
+        },
+        "pk": 21
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Heridas causadas ignoran SV",
+            "description": "Las heridas causadas por este arma ignoran las tiradas de salvación por armadura",
+            "puntos": 50,
+            "race": "ALL",
+            "name": "Espada obsidiana"
+        },
+        "pk": 22
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+2F (Cuerpo a cuerpo)",
+            "description": "Los ataques en combate cuerpo a cuerpo realizados con este arma se resuelven con +2 a la Fuerza",
+            "puntos": 40,
+            "race": "ALL",
+            "name": "Espada ogra"
+        },
+        "pk": 23
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+2A",
+            "description": "El portador de este arma tiene +2 ataques",
+            "puntos": 40,
+            "race": "ALL",
+            "name": "Espada de conflictos"
+        },
+        "pk": 24
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "HA 10",
+            "description": "Armas emparejadas. El portador de este arma tiene Habilidad de armas 10",
+            "puntos": 35,
+            "race": "ALL",
+            "name": "Espada de esgrima"
+        },
+        "pk": 25
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1F y +1A por cada personaje enemigo en contacto con el o su unidad.",
+            "description": "El portador de este arma obtiene +1 a la fuerza y +1 ataque por cada personaje enemigo que se encuentre en contacto peana con peana con el o su unidad. Estos modificadores se calculan al inicio de cada fase de combate y duran hasta el final de la misma.",
+            "puntos": 30,
+            "race": "ALL",
+            "name": "Espada antihéroes"
+        },
+        "pk": 26
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Hechiceros pierden un hechizo al azar por cada herida no salvada",
+            "description": "Un hechicero que sufra heridas no salvadas por este arma perderá uno de sus hechizos (elegidos al azar) por cada una de dichas heridas no salvadas",
+            "puntos": 25,
+            "race": "ALL",
+            "name": "Espada robahechizos"
+        },
+        "pk": 27
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1A",
+            "description": "El portador de este arma obtiene +1 ataque",
+            "puntos": 20,
+            "race": "ALL",
+            "name": "Espada de batalla"
+        },
+        "pk": 28
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1F (Cuerpo a cuerpo)",
+            "description": "Los ataques en combate cuerpo a cuerpo realizados con este arma se resuelven con +1 a la Fuerza",
+            "puntos": 20,
+            "race": "ALL",
+            "name": "Espada del poder"
+        },
+        "pk": 29
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "I 10",
+            "description": "Los ataques de este arma se realizan con iniciativa 10",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "Espada de oro"
+        },
+        "pk": 30
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1 al impactar",
+            "description": "Los ataques realizados con este arma otorgan al portador un +1 a la tirada para impactar",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "Espada veloz"
+        },
+        "pk": 31
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Obtiene furia asesina que no se pierde",
+            "description": "El portador de este arma tiene la regla especial furia asesina, y no perderá la Furia asesina en toda la partida.",
+            "puntos": 20,
+            "race": "ALL",
+            "name": "Espada asesina"
+        },
+        "pk": 32
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Poder de penetración",
+            "description": "Los ataques en combate cuerpo a cuerpo realizados con este arma tienen la regla especial de Poder de Penetración",
+            "puntos": 10,
+            "race": "ALL",
+            "name": "Mordisco de acero"
+        },
+        "pk": 33
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Hiere con 5+, a no ser que necesite menos.",
+            "description": "Los ataques realizados con este arma siempre hieren con 5+, a menos que necesiten un resultado inferior.",
+            "puntos": 10,
+            "race": "ALL",
+            "name": "Espada reliquia"
+        },
+        "pk": 34
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Miedo",
+            "description": "El portador de este arma causa Miedo",
+            "puntos": 10,
+            "race": "ALL",
+            "name": "Espada aullante"
+        },
+        "pk": 35
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Monstruo o personaje sufre herida sin salvar gana estupidez para toda la partida",
+            "description": "Un monstruo o personaje que sufra una herida sin salvar de la espada del tormento tendrá la regla especial Estupidez durante el resto de partida",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Espada del tormento"
+        },
+        "pk": 36
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Monstruo o personaje, -1A por herida no salvada (hasta mínimo de 1)",
+            "description": "Un monstruo o personaje que sufra heridas no salvadas por este arma perderá permanentemente un Ataque por cada una de las heridas no salvadas ( hasta un mínimo de 1)",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Azote del guerrero"
+        },
+        "pk": 37
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Armadura pesada. SVE 4+.",
+            "description": "Armadura pesada. Otorga al portador una tirada de salvación especial de 4+",
+            "puntos": 50,
+            "race": "ALL",
+            "name": "Armadura del destino"
+        },
+        "pk": 38
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1 SV. Repite tiradas para herir exitosas recibidas.",
+            "description": "El portador mejora su tirada de salvación por armadura en un punto. Cualquier tirada para herir que tenga éxito contra el portador del Yelmo del engaño deberá repetirse.",
+            "puntos": 50,
+            "race": "ALL",
+            "name": "Yelmo del engaño"
+        },
+        "pk": 39
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "SV 2+. No mejorable.",
+            "description": "Otorga al portador una tirada de salvación por armadura de 2+, que no puede mejorarse de ningún modo.",
+            "puntos": 45,
+            "race": "ALL",
+            "name": "Armadura de plata"
+        },
+        "pk": 40
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Armadura pesada. SVE 5+.",
+            "description": "Armadura pesada. Otorga al portador una tirada de salvación especial de 5+.",
+            "puntos": 35,
+            "race": "ALL",
+            "name": "Armadura de la fortuna"
+        },
+        "pk": 41
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1 SV. En cada fase de combate, elige un personaje enemigo en contacto con portador o unidad, este chequea Liderazgo. Si falla, este personaje no puede realizar ataques, y es impactado directamente esta fase.",
+            "description": "El portador mejora su tirada de salvación por armadura en un punto. Además, al inicio de cada fase de combate cuerpo a cuerpo, elige a un personaje enemigo que esté en contacto peana con peana con el portador o con su unidad. Dicho personaje deberá realizar inmediatamente un chequeo de Liderazgo. Si no lo supera, sucumbirá a los susurros malignos que salen del yelmo; en esa fase de combate no podrá realizar ataques y resultará impactado automáticamente.",
+            "puntos": 30,
+            "race": "ALL",
+            "name": "Yelmo de la discordia"
+        },
+        "pk": 42
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Armadura ligera. Enemigos -1 en tiradas para impactar.",
+            "description": "Armadura ligera. Los enemigos sufren un penalizador de -1 en sus tiradas para impactar en cuerpo a cuerpo cuando intenten atacar al portador. ",
+            "puntos": 25,
+            "race": "ALL",
+            "name": "Escamas brillantes"
+        },
+        "pk": 43
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Escudo. SV 1+ contra proyectiles.",
+            "description": "Escudo. El portador obtiene una tirada de salvación por armadura de 1+ contra los ataques de proyectiles.",
+            "puntos": 25,
+            "race": "ALL",
+            "name": "Escudo de ptolos"
+        },
+        "pk": 44
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Escudo. Resistencia a la magia (1)",
+            "description": "Escudo. El portador obtiene Resistencia a la magia (1).",
+            "puntos": 20,
+            "race": "ALL",
+            "name": "Escudo antihechizos"
+        },
+        "pk": 45
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Armadura pesada. SVE 6+.",
+            "description": "Armadura pesada. Otorga al portador una tirada de salvación especial de 6+.",
+            "puntos": 20,
+            "race": "ALL",
+            "name": "Armadura del jugador"
+        },
+        "pk": 46
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1 SV. SVE 2+ contra Ataques flamígeros.",
+            "description": "El portador mejora su tirada de salvación por armadura en un punto. Además, el portador obtiene una tirada de salvación especial de 2+ contra Ataques flamígeros.",
+            "puntos": 10,
+            "race": "ALL",
+            "name": "Yelmo del dragón"
+        },
+        "pk": 47
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Escudo. +2 SV.",
+            "description": "Escudo. El portador mejora su tirada de salvación por armadura en dos puntos, en lugar del único punto que le otorgaría un escudo normal.",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Escudo hechizado"
+        },
+        "pk": 48
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Escudo. Un solo uso. El primer impacto se ignora con 2+ en 1D6.",
+            "description": "Escudo. Un solo uso. El primer impacto sufrido por el portador se ignora con un resultado de 2+ en 1D6.",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Escudo encantado"
+        },
+        "pk": 49
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "SVE 4+.",
+            "description": "Este talismán otorga al portador una tirada de salvación especial de 4+.",
+            "puntos": 45,
+            "race": "ALL",
+            "name": "Talismán de salvación"
+        },
+        "pk": 50
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Resistencia a la magia (3)",
+            "description": "Este talismán otorga al portador la regla especial Resistencia a la magia (3)",
+            "puntos": 45,
+            "race": "ALL",
+            "name": "Piedra de obsidiana"
+        },
+        "pk": 51
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "SVE 5+",
+            "description": "Este talismán otorga al portador una tirada de salvación especial de 5+.",
+            "puntos": 30,
+            "race": "ALL",
+            "name": "Talismán de resistencia"
+        },
+        "pk": 52
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Resistencia a la magia (2)",
+            "description": "Este talismán otorga al portador Resistencia a la magia (2)",
+            "puntos": 30,
+            "race": "ALL",
+            "name": "Amuleto de obsidiana"
+        },
+        "pk": 53
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Repite SV fallidas",
+            "description": "El portador repite sus tiradas de salvación por armadura fallidas.",
+            "puntos": 25,
+            "race": "ALL",
+            "name": "Piedra del amanecer"
+        },
+        "pk": 54
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Este talismán otorga al portador una tirada de salvación especial de 4+ contra la primera herida que sufra.",
+            "description": "Un solo uso. Este talismán otorga al portador una tirada de salvación especial de 4+ contra la primera herida que sufra. Tras esto, el poder del amuleto de ópalo se debilita y no puede volver a utilizarse en toda la partida.",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "Amuleto de ópalo"
+        },
+        "pk": 55
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Resistencia a la magia (1)",
+            "description": "Este talismán otorga al portador Resistencia a la magia (1)",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "Baratija de obsidiana"
+        },
+        "pk": 56
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "SVE 6+.",
+            "description": "Este talismán otorga al portador una tirada de salvación especial de 6+.",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "Talismán de protección"
+        },
+        "pk": 57
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Regeneración (6+)",
+            "description": "Este talismán otorga al portador la regla especial Regeneración (6+)",
+            "puntos": 10,
+            "race": "ALL",
+            "name": "Semilla del renacimiento"
+        },
+        "pk": 58
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "SVE 2+ contra ataques flamígeros.",
+            "description": "Este talismán otorga al portador una tirada de salvación especial de 2+ contra ataques flamígeros.",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Gema matadragones"
+        },
+        "pk": 59
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "SVE 5+ cuerpo a cuerpo contra voladoras",
+            "description": "Este talismán otorga al portador una tirada de salvación especial de 5+ contra las heridas causadas en combate cuerpo a cuerpo por miniaturas que tengan la regla especial Volar.",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Collar desplumapalomas"
+        },
+        "pk": 60
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Repetir una única SV fallida.",
+            "description": "Un solo uso. Permite al portador repetir una única tirada de salvación por armadura fallida.",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Amuleto de la suerte"
+        },
+        "pk": 61
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Repite tiradas para determinar distancia de carga.",
+            "description": "Una unidad con este estandarte mágico podrá repetir sus tiradas para determinar la distancia de carga.",
+            "puntos": 55,
+            "race": "ALL",
+            "name": "Estandarte furioso"
+        },
+        "pk": 62
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Causa Terror",
+            "description": "Una unidad con este estandarte mágico causará Terror a sus enemigos",
+            "puntos": 50,
+            "race": "ALL",
+            "name": "Estandarte aullador"
+        },
+        "pk": 63
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Cruzar",
+            "description": "Una unidad con este estandarte mágico obtendrá la regla especial de Cruzar.",
+            "puntos": 50,
+            "race": "ALL",
+            "name": "Estandarte del explorador"
+        },
+        "pk": 64
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Poder de penetración.",
+            "description": "Las miniaturas de una unidad con este estandarte mágico obtendrán la regla especial Poder de penetración.",
+            "puntos": 45,
+            "race": "ALL",
+            "name": "Estandarte destructor"
+        },
+        "pk": 65
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1 en resolución del combate.",
+            "description": "Una unidad con este estandarte mágico añadirá +1 a la resolución del combate.",
+            "puntos": 35,
+            "race": "ALL",
+            "name": "Estandarte de guerra"
+        },
+        "pk": 66
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1 M",
+            "description": "Las miniaturas de una unidad con este estandarte mágico obtendrán +1 a su atributo de movimiento.",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "Estandarte de la rapidez"
+        },
+        "pk": 67
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Resistencia a la magia (1)",
+            "description": "Las miniaturas de una unidad con este estandarte mágico obtendrán Resistencia a la magia (1)",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "Pendón de hueso"
+        },
+        "pk": 68
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1 L. No pueden usar Presencia inspiradora del general.",
+            "description": "Las miniaturas de una unidad con este estandarte mágico sumarán +1 a su atributo de Liderazgo, pero no podrán utilizar la Presencia inspiradora de su general.",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "Estandarte de la disciplina"
+        },
+        "pk": 69
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Ataques flamígeros.",
+            "description": "Las miniaturas de una unidad con este estandarte mágico tendrán Ataques flamígeros.",
+            "puntos": 10,
+            "race": "ALL",
+            "name": "Estandarte de la llama perpetua"
+        },
+        "pk": 70
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Repite primer chequeo Liderazgo fallido.",
+            "description": "Un solo uso. Una unidad con este estandarte mágico podrá repetir su primer chequeo de Liderazgo fallido.",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Pendón reluciente"
+        },
+        "pk": 71
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Miedo a voladoras",
+            "description": "Una unidad con este estandarte mágico causará Miedo a todas las criaturas que tengan la regla especial Volar",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Estandarte del espantapajaros"
+        },
+        "pk": 72
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1 lanzar o dispersar hechizos",
+            "description": "El portador obtiene un modificador de +1 para intentar lanzar o dispersar hechizos.",
+            "puntos": 70,
+            "race": "ALL",
+            "name": "Libro de Ashur"
+        },
+        "pk": 73
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. En lanzamiento hechizo enemigo, en lugar de dispersar, 1D6 por cada dado de energía tras resolverse. Por cada 5+, herida sin posibilidad SV.",
+            "description": "Un solo uso. Cuando se lance un hechizo enemigo, un hechicero que tenga este pergamino podrá leerlo en vez de dispersar el hechizo. El hechizo se lanzara de manera normal, pero tras resolverse tira 1D6 por cada dado de energía usado en el lanzamiento. El hechicero que lanzó el hechizo recibirá una herida por cada resultado de 5+ que obtenga, sin posibilidad de salvación por armadura.",
+            "puntos": 50,
+            "race": "ALL",
+            "name": "Pergamino de reacción"
+        },
+        "pk": 74
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. En lanzamiento hechizo enemigo, en lugar de dispersar, portador añade un dado a la reserva por cada dado utilizado en lanzamiento (max en reserva 12).",
+            "description": "Un solo uso. Cuando se lance un hechizo enemigo, un hechicero que tenga este pergamino podrá leerlo en vez de dispersar el hechizo. El hechizo se lanzara de manera normal, pero tras resolverse, el portador del pergamino añadirá a su reserva de dispersión un número de dados igual a los dados utilizados para lanzar el hechizo (recuerda que tu reserva de dispersión no puede ser mayor de 12 dados). ",
+            "puntos": 50,
+            "race": "ALL",
+            "name": "Pergamino de sanguijuela"
+        },
+        "pk": 75
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Cuando enemigo lanza hechizo, en lugar de dispersar, enemigo tira 1D6. Si resultado mayor que nivel de hechicería, se convierte en sapo. Todos atributos a 1 menos heridas. Sus equipos no funcionan. No puede canalizar ni dispersar. En siguientes fases de magia, si 4+ en 1D6, vuelve a estado normal, con sus atributos y equipos.",
+            "description": "Un solo uso. Cuando se lance un hechizo enemigo, un hechicero que tenga este pergamino podrá leerlo en vez de dispersar el hechizo. El hechizo se lanzara de manera normal, pero parte de la energía se transformará y se redirigirá hacia el hechicero que lo lanzó, !quien puede verse convertido en un pequeño sapo! El hechicero enemigo puede intentar resistir los efectos de la  maldición si obtiene un resultado igual o inferior a su nivel de hechicería en 1D6. En caso contrario, la transformación lo convertirá en sapo. Mientras se encuentre en ese estado, el hechicero no podrá canalizar o dispersar hechizos, todos sus equipos mágicos y equipo mundano (armadura, armas, etc ) dejarán de funcionar temporalmente, y todos sus atributos se reducirán a 1 (excepto las Heridas, q no se verá afectado). El jugador que controla el hechicero víctima de la maldición podrá tirar 1D6 al inicio de cada una de sus siguientes fases de Magia. Cuando saque un 4+, la maldición desaparecerá, y el hechicero volverá a su forma normal (aunque aún se pasará varios días intentando comer moscas...!).",
+            "puntos": 50,
+            "race": "ALL",
+            "name": "Pergamino de maldición de sivejir"
+        },
+        "pk": 76
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Si enemigo intenta lanzar hechizo, cualquier doble causa Fuerza irresistible (y una disfunción mágica).",
+            "description": "Un solo uso. Este pergamino puede utilizarse cuando el hechicero enemigo intente lanzar un hechizo. Durante dicho intento, cualquier tirada de lanzamiento que saque un doble causará una Fuerza irresistible (y una disfunción mágica).",
+            "puntos": 35,
+            "race": "ALL",
+            "name": "Pergamino de energia"
+        },
+        "pk": 77
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso.  Después de lanzar hechizo, 1D6 para mejorar tirada. Puede causar Fuerza irresistible (con disfunción mágica).",
+            "description": "Un solo uso. El portador puede aumentar el resultado de lanzamiento de uno de sus hechizos tirando 1D6 adicional tras haber hecho su tirada de lanzamiento normal. Este dado de energía adicional puede contribuir a que un hechizo se lance con Fuerza irresistible (con disfunción mágica).",
+            "puntos": 35,
+            "race": "ALL",
+            "name": "Varita de azabache"
+        },
+        "pk": 78
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Añade 1D6 a reserva en inicio Fase de Magia. Causa 1D3 heridas al portador, sin SV.",
+            "description": "Un solo uso. La Vara prohibida añade 1D6 a la reserva de energía del hechicero al inicio de su fase de Magia, pero  también inflige 1D3 heridas a su portador (sin posibilidad de tiradas de salvación por armadura) ",
+            "puntos": 35,
+            "race": "ALL",
+            "name": "Vara prohibida"
+        },
+        "pk": 79
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Declarar uso al inicio fase Magia. Por cada hechizo dispersado, enemigo tira 1D6. Con 5+, hechicero enemigo sufre 1 herida sin SV.",
+            "description": "Un solo uso. Debes declarar el uso de este objeto al inicio de una de tus fases de magia. Durante el resto de esa fase, cuando uno de los hechizos del portador sea dispersado por un hechicero enemigo, tira 1D6. Con un 5+, dicho hechicero enemigo sufrirá una herida sin posibilidad de salvación por armadura.",
+            "puntos": 25,
+            "race": "ALL",
+            "name": "Fragmento de piedra del engaño"
+        },
+        "pk": 80
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso.  Repite tirada en Tabla de Disfunción Mágica.",
+            "description": "Un solo uso. Cuando el hechicero deba tirar en la Tabla de Disfunción Mágica, podrá repetir la tirada.",
+            "puntos": 25,
+            "race": "ALL",
+            "name": "Vara terrenal"
+        },
+        "pk": 81
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Dispersión automática, si no fuerza irresistible, en momento que son lanzados con éxito.",
+            "description": "Un solo uso. Cuando se lance un hechizo enemigo, un hechicero que tenga este pergamino podrá leerlo en vez de dispersar el hechizo mediante dados de dispersión. Este hechizo se dispersará automáticamente, sin necesidad de tirar los dados. Obviamente, un pergamino de dispersión no servirá de nada si el hechizo se ha lanzado con fuerza irresistible. Nótese así mismo, que un pergamino de dispersión solo podrá dispersar los hechizos de tipo \"Permanece en juego\" en el momento que sean lanzados.",
+            "puntos": 25,
+            "race": "ALL",
+            "name": "Pergamino de dispersión"
+        },
+        "pk": 82
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. 2D6 adicionales al lanzar hechizo.  Mínimo 1D6 de la reserva.",
+            "description": "Un solo uso. El hechicero puede declarar el uso de la Piedra de energía justo antes de lanzar un hechizo. En ese caso, añadirá dos dados adicionales a los dados de energía que vaya a tirar (aún así, en la tirada se deberá utilizar al menos un dado de la reserva de energía)",
+            "puntos": 20,
+            "race": "ALL",
+            "name": "Piedra de energia"
+        },
+        "pk": 83
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. 1D6 adicional para dispersa hechizo. Puede dispersar con Fuerza irresistible.",
+            "description": "Un solo uso. El portador puede aumentar el resultado de una de sus tiradas de dispersión en 1D6 adicional, tras haber lanzados sus otros dados de dispersión. Este dado de dispersión adicional puede colaborar a que el hechizo se disperse con Fuerza irresistible.",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "Cetro de estabilidad"
+        },
+        "pk": 84
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "+1 a canalizar y dispersar.",
+            "description": "El hechicero añade +1 a todos sus intentos de canalizar dados de energía o de dispersión.",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "Báculo canalizador"
+        },
+        "pk": 85
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. En lugar de dispersar, SVE 4+ contra ese hechizo.",
+            "description": "Un solo uso. Cuando un enemigo lanza un hechizo, un hechicero con este pergamino podrá leerlo en vez de intentar dispersar el hechizo. El hechizo se lanzará con de manera normal, pero su objetivo tendrá una tirada de salvación especial de 4+ contra cualquier herida causada por el hechizo.",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "Pergamino de protección"
+        },
+        "pk": 86
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Armadura ligera"
+        },
+        "pk": 88
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Armadura pesada"
+        },
+        "pk": 89
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "puntos": 0,
+            "race": "ALL",
+            "name": "Escudo"
+        },
+        "pk": 90
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Portador hechicero nv2. Saber elegido al azar. Tiene Estupidez.",
+            "description": "El portador se considera un hechicero de nivel 2 que puede utilizar hechizos de un Saber de la Magia elegido al azar. No obstante, también tiene la regla especial Estupidez.",
+            "puntos": 100,
+            "race": "ALL",
+            "name": "Sombrero brujo"
+        },
+        "pk": 91
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Coloca antes de desplegar una atalaya en tu zona de despliegue.",
+            "description": "Tras determinar las zonas de despliegue, pero antes de desplegar los ejércitos, representa la fortaleza de Fozzrik colocando en tu zona de despliegue una Atalaya ( o alguna estructura improvisada que sea de un tamaño similar). \r\nLa Fortaleza de Fozzrik se considera un edifico estándar (Consulta la página 126 para más detalles). Si no dispones de un edificio adecuado para representar la Fortaleza de Fozzrik no podrás utilizarla.",
+            "puntos": 100,
+            "race": "ALL",
+            "name": "Fortaleza de Fozzrik"
+        },
+        "pk": 92
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Solo infantería e infantería monstruosa. Volar. No puede unirse a unidades.",
+            "description": "Solo infantería e infantería monstruosa. El propietario de esta alfombra mágica tiene la regla especial Volar. Sin embargo, no puede unirse a ninguna unidad.",
+            "puntos": 50,
+            "race": "ALL",
+            "name": "Alfombra arabe"
+        },
+        "pk": 93
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Tozudez.",
+            "description": "El portador de la Corona de mando tiene la regla especial Tozudez.",
+            "puntos": 35,
+            "race": "ALL",
+            "name": "Corona de mando"
+        },
+        "pk": 94
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Se bebe al inicio del turno. Una miniatura propia recupera 1D6 heridas.",
+            "description": "Un solo uso. La poción curativa puede beberse al inicio del turno del jugador que controla la miniatura. El bebedor de la poción recupera de inmediato 1D6 heridas.",
+            "puntos": 35,
+            "race": "ALL",
+            "name": "Poción curativa"
+        },
+        "pk": 95
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Hechizo vinculado (nv3). Bola de fuego, saber del fuego",
+            "description": "Hechizo vinculado (nivel de energía 3). El Rubí de destrucción contiene el hechizo Bola de Fuego (Consulta el saber del fuego)",
+            "puntos": 25,
+            "race": "ALL",
+            "name": "Rubí de destrucción"
+        },
+        "pk": 96
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Terror. No se puede usar su Liderazgo.",
+            "description": "Su portador causa Terror. Sin embargo, las demás miniaturas no podrán utilizar su atributo de Liderazgo.",
+            "puntos": 25,
+            "race": "ALL",
+            "name": "Terrible mascara de !EEE!"
+        },
+        "pk": 97
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Voladoras y jinetes repiten tiradas para herir contra portador y unidad",
+            "description": "Las criaturas voladoras (y sus jinetes) deben repetir las tiradas para impactar en combate cuerpo a cuerpo que tengan éxito contra el portador de la antorcha ( y contra la unidad en la que se encuentre).",
+            "puntos": 35,
+            "race": "ALL",
+            "name": "Antorcha contra voladores"
+        },
+        "pk": 98
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Al inicio de cualquier turno del jugador. +3F hasta el final del turno.",
+            "description": "Un solo uso. La poción de fuerza puede beberse al inicio de cualquier turno del jugador. El bebedor obtiene +3 a la Fuerza hasta el final del turno.",
+            "puntos": 20,
+            "race": "ALL",
+            "name": "Poción de fuerza"
+        },
+        "pk": 99
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Al inicio de cualquier turno del jugador. +3R hasta el final del turno.",
+            "description": "Un solo uso. La poción de fuerza puede beberse al inicio de cualquier turno del jugador. El bebedor obtiene +3 a la Resistencia hasta el final del turno.",
+            "puntos": 20,
+            "race": "ALL",
+            "name": "Poción de resistencia"
+        },
+        "pk": 100
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Amigos o enemigos peana con peana, repiten SVE exitosas.",
+            "description": "Las miniaturas que estén en contacto peana con peana con el portador (tanto amigos como enemigos) deberán repetir las tiradas de salvación especial que superen.",
+            "puntos": 15,
+            "race": "ALL",
+            "name": "El otro fragmento de piedra de engaño"
+        },
+        "pk": 101
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Personaje y unidad SVE 6+ contra maquinas de guerra.",
+            "description": "Tanto el personaje como la unidad en la que se encuentre obtienen una tirada de salvación especial de 6+ contra las maquinas de guerra.",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Icono de acero maldito"
+        },
+        "pk": 102
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Se bebe al inicio del turno. Inmune a psicología y Carga devastadora hasta final del turno.",
+            "description": "Un solo uso. La poción de temeridad puede beberse al inicio de cualquier turno del jugador. El bebedor obtiene las reglas especiales de Inmune a psicología y Carga devastadora hasta el final del turno del jugador en curso",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Poción de temeridad"
+        },
+        "pk": 103
+    },
+    {
+        "model": "fantasy.equipment",
+        "fields": {
+            "short_description": "Un solo uso. Se bebe al inicio del turno. +3 Iniciativa hasta final del turno.",
+            "description": "Un solo uso. La poción de velocidad puede beberse al inicio de cualquier turno del jugador. El bebedor obtiene +3 a la Iniciativa hasta el final del turno.",
+            "puntos": 5,
+            "race": "ALL",
+            "name": "Poción de velocidad"
+        },
+        "pk": 104
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Arma de aliento"
+        },
+        "pk": 1
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Ataque adicional"
+        },
+        "pk": 2
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Ataques aleatorios"
+        },
+        "pk": 3
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Ataques envenenados"
+        },
+        "pk": 4
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Ataques flamígeros"
+        },
+        "pk": 5
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Carga devastadora"
+        },
+        "pk": 6
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Criatura marina"
+        },
+        "pk": 7
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Caballeria rápida"
+        },
+        "pk": 8
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Cruzar"
+        },
+        "pk": 9
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Disparo lento"
+        },
+        "pk": 10
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Disparo Rápido"
+        },
+        "pk": 11
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Disparos Múltiples"
+        },
+        "pk": 12
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Estupidez"
+        },
+        "pk": 13
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Étereo"
+        },
+        "pk": 14
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Flotar"
+        },
+        "pk": 15
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Francotirador"
+        },
+        "pk": 16
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Furia asesina"
+        },
+        "pk": 17
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Golpe Letal"
+        },
+        "pk": 18
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Golpetazo"
+        },
+        "pk": 19
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Heridas Multiples"
+        },
+        "pk": 20
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Hostigadores"
+        },
+        "pk": 21
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Ignora Cobertura"
+        },
+        "pk": 22
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Impactos por Carga"
+        },
+        "pk": 23
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Indesmoralizable"
+        },
+        "pk": 24
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Inestable"
+        },
+        "pk": 25
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Inflamable"
+        },
+        "pk": 26
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Inmune a psicologia"
+        },
+        "pk": 27
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Luchar con filas adicionales"
+        },
+        "pk": 28
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Lluvia de disparos"
+        },
+        "pk": 29
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Miedo"
+        },
+        "pk": 30
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Monstruos y cuidadores"
+        },
+        "pk": 31
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Mover o disparar"
+        },
+        "pk": 32
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Movimiento Aleatorio"
+        },
+        "pk": 33
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Objetivo grande"
+        },
+        "pk": 34
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Odio"
+        },
+        "pk": 35
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Piel Escamosa"
+        },
+        "pk": 36
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Poder de penetración"
+        },
+        "pk": 37
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Regeneración"
+        },
+        "pk": 38
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Requiere ambas manos"
+        },
+        "pk": 39
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Resistencia a la magia (1)"
+        },
+        "pk": 40
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Resistencia a la magia (2)"
+        },
+        "pk": 41
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Resistencia a la magia (3)"
+        },
+        "pk": 42
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Señor del conocimiento"
+        },
+        "pk": 43
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Siempre ataca primero"
+        },
+        "pk": 44
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Siempre ataca último"
+        },
+        "pk": 45
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Terror"
+        },
+        "pk": 46
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Vuelo"
+        },
+        "pk": 47
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Tozudez"
+        },
+        "pk": 48
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Zancada Veloz"
+        },
+        "pk": 49
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Acechantes"
+        },
+        "pk": 50
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Exploradores"
+        },
+        "pk": 51
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Vanguardia"
+        },
+        "pk": 52
+    },
+    {
+        "model": "fantasy.regla",
+        "fields": {
+            "short_description": "",
+            "description": "",
+            "race": "ALL",
+            "name": "Disparos Múltiples (2)"
+        },
+        "pk": 53
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 1
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 2
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 3
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 4
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 5
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 6
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 7
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 8
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 9
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 10
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 11
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 12
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 13
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 14
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 15
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 16
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 17
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 18
+    },
+    {
+        "model": "fantasy.arma",
+        "fields": {},
+        "pk": 19
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 20
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 21
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 22
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 23
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 24
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 25
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 26
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 27
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 28
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 29
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 30
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 31
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 32
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 33
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 34
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 35
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 36
+    },
+    {
+        "model": "fantasy.armamagica",
+        "fields": {},
+        "pk": 37
+    },
+    {
+        "model": "fantasy.armadura",
+        "fields": {},
+        "pk": 88
+    },
+    {
+        "model": "fantasy.armadura",
+        "fields": {},
+        "pk": 89
+    },
+    {
+        "model": "fantasy.armadura",
+        "fields": {},
+        "pk": 90
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 38
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 39
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 40
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 41
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 42
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 43
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 44
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 45
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 46
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 47
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 48
+    },
+    {
+        "model": "fantasy.armaduramagicas",
+        "fields": {},
+        "pk": 49
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 50
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 51
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 52
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 53
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 54
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 55
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 56
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 57
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 58
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 59
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 60
+    },
+    {
+        "model": "fantasy.talisman",
+        "fields": {},
+        "pk": 61
+    },
+    {
+        "model": "fantasy.estandartemagico",
+        "fields": {},
+        "pk": 62
+    },
+    {
+        "model": "fantasy.estandartemagico",
+        "fields": {},
+        "pk": 63
+    },
+    {
+        "model": "fantasy.estandartemagico",
+        "fields": {},
+        "pk": 64
+    },
+    {
+        "model": "fantasy.estandartemagico",
+        "fields": {},
+        "pk": 65
+    },
+    {
+        "model": "fantasy.estandartemagico",
+        "fields": {},
+        "pk": 66
+    },
+    {
+        "model": "fantasy.estandartemagico",
+        "fields": {},
+        "pk": 67
+    },
+    {
+        "model": "fantasy.estandartemagico",
+        "fields": {},
+        "pk": 68
+    },
+    {
+        "model": "fantasy.estandartemagico",
+        "fields": {},
+        "pk": 69
+    },
+    {
+        "model": "fantasy.estandartemagico",
+        "fields": {},
+        "pk": 70
+    },
+    {
+        "model": "fantasy.estandartemagico",
+        "fields": {},
+        "pk": 71
+    },
+    {
+        "model": "fantasy.estandartemagico",
+        "fields": {},
+        "pk": 72
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 73
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 74
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 75
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 76
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 77
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 78
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 79
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 80
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 81
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 82
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 83
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 84
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 85
+    },
+    {
+        "model": "fantasy.objetoarcano",
+        "fields": {},
+        "pk": 86
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 91
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 92
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 93
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 94
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 95
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 96
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 97
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 98
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 99
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 100
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 101
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 102
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 103
+    },
+    {
+        "model": "fantasy.objetohechizado",
+        "fields": {},
+        "pk": 104
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 1,
+            "codename": "add_logentry",
+            "name": "Can add log entry"
+        },
+        "pk": 1
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 1,
+            "codename": "change_logentry",
+            "name": "Can change log entry"
+        },
+        "pk": 2
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 1,
+            "codename": "delete_logentry",
+            "name": "Can delete log entry"
+        },
+        "pk": 3
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 2,
+            "codename": "add_permission",
+            "name": "Can add permission"
+        },
+        "pk": 4
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 2,
+            "codename": "change_permission",
+            "name": "Can change permission"
+        },
+        "pk": 5
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 2,
+            "codename": "delete_permission",
+            "name": "Can delete permission"
+        },
+        "pk": 6
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 3,
+            "codename": "add_group",
+            "name": "Can add group"
+        },
+        "pk": 7
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 3,
+            "codename": "change_group",
+            "name": "Can change group"
+        },
+        "pk": 8
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 3,
+            "codename": "delete_group",
+            "name": "Can delete group"
+        },
+        "pk": 9
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 4,
+            "codename": "add_user",
+            "name": "Can add user"
+        },
+        "pk": 10
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 4,
+            "codename": "change_user",
+            "name": "Can change user"
+        },
+        "pk": 11
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 4,
+            "codename": "delete_user",
+            "name": "Can delete user"
+        },
+        "pk": 12
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 5,
+            "codename": "add_contenttype",
+            "name": "Can add content type"
+        },
+        "pk": 13
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 5,
+            "codename": "change_contenttype",
+            "name": "Can change content type"
+        },
+        "pk": 14
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 5,
+            "codename": "delete_contenttype",
+            "name": "Can delete content type"
+        },
+        "pk": 15
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 6,
+            "codename": "add_session",
+            "name": "Can add session"
+        },
+        "pk": 16
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 6,
+            "codename": "change_session",
+            "name": "Can change session"
+        },
+        "pk": 17
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 6,
+            "codename": "delete_session",
+            "name": "Can delete session"
+        },
+        "pk": 18
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 7,
+            "codename": "add_equipment",
+            "name": "Can add Equipo"
+        },
+        "pk": 19
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 7,
+            "codename": "change_equipment",
+            "name": "Can change Equipo"
+        },
+        "pk": 20
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 7,
+            "codename": "delete_equipment",
+            "name": "Can delete Equipo"
+        },
+        "pk": 21
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 8,
+            "codename": "add_regla",
+            "name": "Can add Regla"
+        },
+        "pk": 22
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 8,
+            "codename": "change_regla",
+            "name": "Can change Regla"
+        },
+        "pk": 23
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 8,
+            "codename": "delete_regla",
+            "name": "Can delete Regla"
+        },
+        "pk": 24
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 9,
+            "codename": "add_arma",
+            "name": "Can add Arma"
+        },
+        "pk": 25
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 9,
+            "codename": "change_arma",
+            "name": "Can change Arma"
+        },
+        "pk": 26
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 9,
+            "codename": "delete_arma",
+            "name": "Can delete Arma"
+        },
+        "pk": 27
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 10,
+            "codename": "add_armamagica",
+            "name": "Can add arma magica"
+        },
+        "pk": 28
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 10,
+            "codename": "change_armamagica",
+            "name": "Can change arma magica"
+        },
+        "pk": 29
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 10,
+            "codename": "delete_armamagica",
+            "name": "Can delete arma magica"
+        },
+        "pk": 30
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 11,
+            "codename": "add_armadura",
+            "name": "Can add armadura"
+        },
+        "pk": 31
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 11,
+            "codename": "change_armadura",
+            "name": "Can change armadura"
+        },
+        "pk": 32
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 11,
+            "codename": "delete_armadura",
+            "name": "Can delete armadura"
+        },
+        "pk": 33
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 12,
+            "codename": "add_armaduramagicas",
+            "name": "Can add armadura magicas"
+        },
+        "pk": 34
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 12,
+            "codename": "change_armaduramagicas",
+            "name": "Can change armadura magicas"
+        },
+        "pk": 35
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 12,
+            "codename": "delete_armaduramagicas",
+            "name": "Can delete armadura magicas"
+        },
+        "pk": 36
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 13,
+            "codename": "add_talisman",
+            "name": "Can add talisman"
+        },
+        "pk": 37
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 13,
+            "codename": "change_talisman",
+            "name": "Can change talisman"
+        },
+        "pk": 38
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 13,
+            "codename": "delete_talisman",
+            "name": "Can delete talisman"
+        },
+        "pk": 39
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 14,
+            "codename": "add_estandartemagico",
+            "name": "Can add estandarte magico"
+        },
+        "pk": 40
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 14,
+            "codename": "change_estandartemagico",
+            "name": "Can change estandarte magico"
+        },
+        "pk": 41
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 14,
+            "codename": "delete_estandartemagico",
+            "name": "Can delete estandarte magico"
+        },
+        "pk": 42
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 15,
+            "codename": "add_objetoarcano",
+            "name": "Can add objeto arcano"
+        },
+        "pk": 43
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 15,
+            "codename": "change_objetoarcano",
+            "name": "Can change objeto arcano"
+        },
+        "pk": 44
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 15,
+            "codename": "delete_objetoarcano",
+            "name": "Can delete objeto arcano"
+        },
+        "pk": 45
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 16,
+            "codename": "add_objetohechizado",
+            "name": "Can add objeto hechizado"
+        },
+        "pk": 46
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 16,
+            "codename": "change_objetohechizado",
+            "name": "Can change objeto hechizado"
+        },
+        "pk": 47
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 16,
+            "codename": "delete_objetohechizado",
+            "name": "Can delete objeto hechizado"
+        },
+        "pk": 48
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 17,
+            "codename": "add_migrationhistory",
+            "name": "Can add migration history"
+        },
+        "pk": 49
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 17,
+            "codename": "change_migrationhistory",
+            "name": "Can change migration history"
+        },
+        "pk": 50
+    },
+    {
+        "model": "auth.permission",
+        "fields": {
+            "content_type": 17,
+            "codename": "delete_migrationhistory",
+            "name": "Can delete migration history"
+        },
+        "pk": 51
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "user_permissions": [],
+            "last_name": "",
+            "is_active": true,
+            "password": "pbkdf2_sha256$12000$8zh6vNfKBTYf$LQbD2H+SX9U64tWNNTFQjlq+9I36n+SQDi8ki22pYtY=",
+            "groups": [],
+            "email": "oar2001@hotmail.com",
+            "username": "admin",
+            "is_superuser": true,
+            "date_joined": "2014-07-23T10:11:55Z",
+            "first_name": "",
+            "is_staff": true,
+            "last_login": "2014-07-23T10:12:17Z"
+        },
+        "pk": 1
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:12:28Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "1",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 1
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:13:06Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "2",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 2
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:13:14Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "3",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 3
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:13:46Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "4",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 4
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:13:58Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "5",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 5
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:14:10Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "6",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 6
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:14:21Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "7",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 7
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:14:34Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "8",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 8
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:14:39Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "9",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 9
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:14:48Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "10",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 10
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:14:59Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "11",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 11
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:15:15Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "12",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 12
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:15:21Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "13",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 13
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:15:34Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "14",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 14
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:15:39Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "15",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 15
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:15:50Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "16",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 16
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T10:15:58Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "17",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 17
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:07:15Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "18",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 18
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:07:29Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "19",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 19
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:07:47Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "20",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 20
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:07:54Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "21",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 21
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:08:27Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "22",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 22
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:08:43Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "23",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 23
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:08:56Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "24",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 24
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:09:05Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "25",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 25
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:09:16Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "26",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 26
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:09:26Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "27",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 27
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:09:36Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "28",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 28
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:09:45Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "29",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 29
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:09:55Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "30",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 30
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:10:08Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "31",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 31
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:10:16Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "32",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 32
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:10:27Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "33",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 33
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:10:36Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "34",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 34
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:10:43Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "35",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 35
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:10:56Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "36",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 36
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:11:06Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "37",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 37
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:11:14Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "38",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 38
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:11:25Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "39",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 39
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:11:40Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "40",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 40
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:11:46Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "41",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 41
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:11:51Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "42",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 42
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:12:14Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "43",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 43
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:12:28Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "44",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 44
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:12:38Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "45",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 45
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:12:44Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "46",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 46
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:12:55Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "47",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 47
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:13:05Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "48",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 48
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:13:12Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "49",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 49
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:13:37Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "50",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 50
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:13:43Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "51",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 51
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-23T12:13:51Z",
+            "object_repr": "Regla object",
+            "action_flag": 1,
+            "object_id": "52",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 52
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-23T12:20:13Z",
+            "object_repr": "Arma object",
+            "action_flag": 1,
+            "object_id": "1",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 53
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-23T12:20:48Z",
+            "object_repr": "Arma object",
+            "action_flag": 1,
+            "object_id": "2",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 54
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-23T13:03:18Z",
+            "object_repr": "Arco",
+            "action_flag": 1,
+            "object_id": "3",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 55
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-23T13:04:04Z",
+            "object_repr": "Arco corto",
+            "action_flag": 1,
+            "object_id": "4",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 56
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-23T13:04:29Z",
+            "object_repr": "Arco largo",
+            "action_flag": 1,
+            "object_id": "5",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 57
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-23T13:05:03Z",
+            "object_repr": "Arma a dos manos",
+            "action_flag": 1,
+            "object_id": "6",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 58
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-23T13:06:15Z",
+            "object_repr": "Armas arrojadizas",
+            "action_flag": 1,
+            "object_id": "7",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 59
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-23T13:06:38Z",
+            "object_repr": "Ballesta",
+            "action_flag": 1,
+            "object_id": "8",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 60
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-23T13:07:22Z",
+            "object_repr": "Dos armas de mano/ Armas de mano adicionales (Solo para miniaturas a pie)",
+            "action_flag": 1,
+            "object_id": "9",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 61
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-23T13:07:49Z",
+            "object_repr": "Hachas arrojadizas",
+            "action_flag": 1,
+            "object_id": "10",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 62
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 8,
+            "action_time": "2014-07-24T09:55:33Z",
+            "object_repr": "Disparos Múltiples (2)",
+            "action_flag": 1,
+            "object_id": "53",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 63
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-24T09:55:41Z",
+            "object_repr": "Honda",
+            "action_flag": 1,
+            "object_id": "11",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 64
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-24T09:56:18Z",
+            "object_repr": "Jabalina",
+            "action_flag": 1,
+            "object_id": "12",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 65
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-24T09:57:48Z",
+            "object_repr": "Honda",
+            "action_flag": 2,
+            "object_id": "11",
+            "user": 1,
+            "change_message": "Changed reglas_especiales."
+        },
+        "pk": 66
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-24T10:00:28Z",
+            "object_repr": "Lanza (a pie)",
+            "action_flag": 1,
+            "object_id": "13",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 67
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-24T10:02:35Z",
+            "object_repr": "Lanza (montado)",
+            "action_flag": 1,
+            "object_id": "14",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 68
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-24T10:03:10Z",
+            "object_repr": "Lanza de caballeria",
+            "action_flag": 1,
+            "object_id": "15",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 69
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-24T10:03:35Z",
+            "object_repr": "Mangual",
+            "action_flag": 1,
+            "object_id": "16",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 70
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-24T10:04:04Z",
+            "object_repr": "Mayal",
+            "action_flag": 1,
+            "object_id": "17",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 71
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-24T10:04:47Z",
+            "object_repr": "Pistola",
+            "action_flag": 1,
+            "object_id": "18",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 72
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 9,
+            "action_time": "2014-07-24T10:05:18Z",
+            "object_repr": "Ristra de pistolas",
+            "action_flag": 1,
+            "object_id": "19",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 73
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:07:36Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "20",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 74
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:08:10Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "21",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 75
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:09:15Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "22",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 76
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:10:08Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "23",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 77
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:10:52Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "24",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 78
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:11:49Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "25",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 79
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:14:26Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "26",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 80
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:16:30Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "27",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 81
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:17:03Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "28",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 82
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:17:44Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "29",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 83
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:18:22Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "30",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 84
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:19:33Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "31",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 85
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:20:56Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "32",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 86
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:21:50Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "33",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 87
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:22:49Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "34",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 88
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:23:16Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "35",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 89
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:24:45Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "36",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 90
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:27:07Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 1,
+            "object_id": "37",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 91
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:32:10Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 2,
+            "object_id": "36",
+            "user": 1,
+            "change_message": "Changed short_description."
+        },
+        "pk": 92
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:32:19Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 2,
+            "object_id": "37",
+            "user": 1,
+            "change_message": "Changed short_description."
+        },
+        "pk": 93
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 10,
+            "action_time": "2014-07-29T22:32:28Z",
+            "object_repr": "ArmaMagica object",
+            "action_flag": 2,
+            "object_id": "34",
+            "user": 1,
+            "change_message": "Changed short_description."
+        },
+        "pk": 94
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:02:30Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "38",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 95
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:04:13Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "39",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 96
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:05:41Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "40",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 97
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:06:34Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "41",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 98
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:11:55Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "42",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 99
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:14:22Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "43",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 100
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:15:27Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "44",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 101
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:16:08Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "45",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 102
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:16:55Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "46",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 103
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:18:32Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "47",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 104
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:19:42Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "48",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 105
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 12,
+            "action_time": "2014-07-30T11:20:53Z",
+            "object_repr": "ArmaduraMagicas object",
+            "action_flag": 1,
+            "object_id": "49",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 106
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:22:43Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "50",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 107
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:23:27Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "51",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 108
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:24:24Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "52",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 109
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:24:55Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "53",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 110
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:25:50Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "54",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 111
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:27:07Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "55",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 112
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:27:36Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "56",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 113
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:28:12Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "57",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 114
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:29:10Z",
+            "object_repr": "Talisman object",
+            "action_flag": 2,
+            "object_id": "51",
+            "user": 1,
+            "change_message": "Changed description."
+        },
+        "pk": 115
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:29:29Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "58",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 116
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:30:21Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "59",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 117
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:32:46Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "60",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 118
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 13,
+            "action_time": "2014-07-30T11:34:54Z",
+            "object_repr": "Talisman object",
+            "action_flag": 1,
+            "object_id": "61",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 119
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 14,
+            "action_time": "2014-07-30T11:38:34Z",
+            "object_repr": "EstandarteMagico object",
+            "action_flag": 1,
+            "object_id": "62",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 120
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 14,
+            "action_time": "2014-07-30T11:39:25Z",
+            "object_repr": "EstandarteMagico object",
+            "action_flag": 1,
+            "object_id": "63",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 121
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 14,
+            "action_time": "2014-07-30T11:40:07Z",
+            "object_repr": "EstandarteMagico object",
+            "action_flag": 1,
+            "object_id": "64",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 122
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 14,
+            "action_time": "2014-07-30T11:41:36Z",
+            "object_repr": "EstandarteMagico object",
+            "action_flag": 1,
+            "object_id": "65",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 123
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 14,
+            "action_time": "2014-07-30T11:42:07Z",
+            "object_repr": "EstandarteMagico object",
+            "action_flag": 1,
+            "object_id": "66",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 124
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 14,
+            "action_time": "2014-07-30T11:43:27Z",
+            "object_repr": "EstandarteMagico object",
+            "action_flag": 1,
+            "object_id": "67",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 125
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 14,
+            "action_time": "2014-07-30T11:44:15Z",
+            "object_repr": "EstandarteMagico object",
+            "action_flag": 1,
+            "object_id": "68",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 126
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 14,
+            "action_time": "2014-07-30T11:45:37Z",
+            "object_repr": "EstandarteMagico object",
+            "action_flag": 1,
+            "object_id": "69",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 127
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 14,
+            "action_time": "2014-07-30T11:46:29Z",
+            "object_repr": "EstandarteMagico object",
+            "action_flag": 1,
+            "object_id": "70",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 128
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 14,
+            "action_time": "2014-07-30T11:47:38Z",
+            "object_repr": "EstandarteMagico object",
+            "action_flag": 1,
+            "object_id": "71",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 129
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 14,
+            "action_time": "2014-07-30T11:48:28Z",
+            "object_repr": "EstandarteMagico object",
+            "action_flag": 1,
+            "object_id": "72",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 130
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:00:44Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "73",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 131
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:05:15Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "74",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 132
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:08:42Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "75",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 133
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:21:11Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "76",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 134
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:23:18Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "77",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 135
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:25:51Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "78",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 136
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:28:01Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "79",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 137
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:31:31Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "80",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 138
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:33:39Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "81",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 139
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:37:51Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "82",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 140
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:40:36Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "83",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 141
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:42:37Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "84",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 142
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:43:50Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "85",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 143
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 15,
+            "action_time": "2014-08-04T11:46:06Z",
+            "object_repr": "ObjetoArcano object",
+            "action_flag": 1,
+            "object_id": "86",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 144
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 11,
+            "action_time": "2014-08-04T11:48:20Z",
+            "object_repr": "Armadura object",
+            "action_flag": 1,
+            "object_id": "87",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 145
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 11,
+            "action_time": "2014-08-04T11:48:33Z",
+            "object_repr": "Armadura object",
+            "action_flag": 1,
+            "object_id": "88",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 146
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 11,
+            "action_time": "2014-08-04T11:49:02Z",
+            "object_repr": "Armadura object",
+            "action_flag": 1,
+            "object_id": "89",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 147
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 11,
+            "action_time": "2014-08-04T11:49:08Z",
+            "object_repr": "Armadura object",
+            "action_flag": 1,
+            "object_id": "90",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 148
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 11,
+            "action_time": "2014-08-04T11:49:53Z",
+            "object_repr": "Armadura object",
+            "action_flag": 3,
+            "object_id": "87",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 149
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:24:41Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "91",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 150
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:28:58Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "92",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 151
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:30:22Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "93",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 152
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:30:52Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "94",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 153
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:32:54Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "95",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 154
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:34:09Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "96",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 155
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:35:26Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "97",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 156
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:36:53Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "98",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 157
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:39:03Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "99",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 158
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:39:36Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "100",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 159
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:41:17Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "101",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 160
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:42:56Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "102",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 161
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:44:55Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "103",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 162
+    },
+    {
+        "model": "admin.logentry",
+        "fields": {
+            "content_type": 16,
+            "action_time": "2014-08-04T12:46:15Z",
+            "object_repr": "ObjetoHechizado object",
+            "action_flag": 1,
+            "object_id": "104",
+            "user": 1,
+            "change_message": ""
+        },
+        "pk": 163
+    }
+]
